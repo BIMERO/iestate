@@ -1,0 +1,151 @@
+[
+  {
+    "id": 1,
+    "name": "Tower A",
+    "image": "/src/assets/towerA.jpg",
+    "floors": [
+      {
+        "id": "A1",
+        "nameNo": 1,
+        "apartments": [
+          {
+            "id": "Unit1",
+            "name": "Room A",
+            "area": "1,200 sq ft",
+            "unitType": "Studio",
+            "roomCount": 2,
+            "thumbnail": "/src/assets/apartment1.jpg",
+            "floorPlan": "/src/assets/studio.jpg"
+          },
+          {
+            "id": "Unit2",
+            "name": "Room B",
+            "area": "800 sq ft",
+            "unitType": "One Bedroom",
+            "roomCount": 1,
+            "thumbnail": "/src/assets/apartment2.jpg",
+            "floorPlan": "/src/assets/one_bedroom.jpg"
+          },
+          {
+            "id": "Unit3",
+            "name": "Room C",
+            "area": "800 sq ft",
+            "unitType": "One Bedroom",
+            "roomCount": 1,
+            "thumbnail": "/src/assets/apartment3.jpg",
+            "floorPlan": "/src/assets/loft.jpg"
+          },
+          {
+            "id": "Unit4",
+            "name": "Room D",
+            "area": "1,200 sq ft",
+            "unitType": "Two Bedroom",
+            "roomCount": 2,
+            "thumbnail": "/src/assets/apartment4.jpg",
+            "floorPlan": "/src/assets/two_bedroom.jpg"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": 2,
+    "name": "Tower B",
+    "image": "/src/assets/towerC.jpg",
+    "floors": [
+      {
+        "id": "A1",
+        "nameNo": 1,
+        "apartments": [
+          {
+            "id": "Unit1",
+            "name": "Room A",
+            "area": "1,200 sq ft",
+            "unitType": "Studio",
+            "roomCount": 2,
+            "thumbnail": "/src/assets/apartment1.jpg",
+            "floorPlan": "/src/assets/studio.jpg"
+          },
+          {
+            "id": "Unit2",
+            "name": "Room B",
+            "area": "800 sq ft",
+            "unitType": "One Bedroom",
+            "roomCount": 1,
+            "thumbnail": "/src/assets/apartment2.jpg",
+            "floorPlan": "/src/assets/one_bedroom.jpg"
+          },
+          {
+            "id": "Unit3",
+            "name": "Room C",
+            "area": "800 sq ft",
+            "unitType": "One Bedroom",
+            "roomCount": 1,
+            "thumbnail": "/src/assets/apartment3.jpg",
+            "floorPlan": "/src/assets/loft.jpg"
+          },
+          {
+            "id": "Unit4",
+            "name": "Room D",
+            "area": "1,200 sq ft",
+            "unitType": "Two Bedroom",
+            "roomCount": 2,
+            "thumbnail": "/src/assets/apartment4.jpg",
+            "floorPlan": "/src/assets/two_bedroom.jpg"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": 3,
+    "name": "Tower C",
+    "image": "/src/assets/towerC.jpg",
+    "floors": [
+      {
+        "id": "A1",
+        "nameNo": 1,
+        "apartments": [
+          {
+            "id": "Unit1",
+            "name": "Room A",
+            "area": "1,200 sq ft",
+            "unitType": "Studio",
+            "roomCount": 2,
+            "thumbnail": "/src/assets/apartment1.jpg",
+            "floorPlan": "/src/assets/studio.jpg"
+          },
+          {
+            "id": "Unit2",
+            "name": "Room B",
+            "area": "800 sq ft",
+            "unitType": "One Bedroom",
+            "roomCount": 1,
+            "thumbnail": "/src/assets/apartment2.jpg",
+            "floorPlan": "/src/assets/one_bedroom.jpg"
+          },
+          {
+            "id": "Unit3",
+            "name": "Room C",
+            "area": "800 sq ft",
+            "unitType": "One Bedroom",
+            "roomCount": 1,
+            "thumbnail": "/src/assets/apartment3.jpg",
+            "floorPlan": "/src/assets/loft.jpg"
+          },
+          {
+            "id": "Unit4",
+            "name": "Room D",
+            "area": "1,200 sq ft",
+            "unitType": "Two Bedroom",
+            "roomCount": 2,
+            "thumbnail": "/src/assets/apartment4.jpg",
+            "floorPlan": "/src/assets/two_bedroom.jpg"
+          }
+        ]
+      }
+    ]
+  }
+]
