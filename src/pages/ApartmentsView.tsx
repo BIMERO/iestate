@@ -8,7 +8,7 @@ const ApartmentsView = () => {
 
   const navigate = useNavigate();
   const handleBack = () => {
-    navigate(-1);
+    navigate(`/floors/${towerId}`);
   };
 
   const tower = data.find((t) => t.name === towerId);

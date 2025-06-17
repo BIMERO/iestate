@@ -9,7 +9,7 @@ const FloorView = () => {
 
   const navigate = useNavigate();
   const handleBack = () => {
-    navigate(-1);
+    navigate("/");
   };
 
   if (!floor) {
@@ -26,7 +26,7 @@ const FloorView = () => {
     <div className="bg-white !p-5 rounded-lg">
       <button
         onClick={handleBack}
-        className="flex items-center gap-1 flex-wrap font-medium !mb-5"
+        className="flex items-center gap-1 flex-wrap font-medium !mb-5 cursor-pointer"
       >
         <span className="bg-[#f7f8ff] rounded-full !p-3 text-sm">
           <FaArrowLeft />
