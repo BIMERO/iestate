@@ -26,17 +26,15 @@ const ApartmentsView = () => {
 
   return (
     <section className="bg-white rounded-lg !p-5">
-      <div className="flex items-center gap-4 flex-wrap !mb-5">
-        <button
-          className="flex items-center gap-1 flex-wrap font-medium !mb-5"
-          onClick={handleBack}
-        >
-          <span className="bg-[#f7f8ff] rounded-full !p-3 text-sm">
-            <FaArrowLeft />
-          </span>
-          Back
-        </button>
-      </div>
+      <button
+        className="flex items-center gap-1 flex-wrap font-medium !mb-5 cursor-pointer"
+        onClick={handleBack}
+      >
+        <span className="bg-[#f7f8ff] rounded-full !p-3 text-sm">
+          <FaArrowLeft />
+        </span>
+        Back
+      </button>
 
       <h1 className="text-2xl font-semibold !mb-5">
         Tower {towerId} - Floor {floorId} Apartments
